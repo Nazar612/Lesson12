@@ -8,10 +8,7 @@
 
 
 
-   border-width: 10px;
-   border-color: green;
-   border-style:double;
-
+   border: 10px double green;
 
    margin-left: 30%;
    margin-top: 30%;
@@ -20,8 +17,10 @@
 .box {
    width:300px ;
    height: 500px;
+
    background-color: violet;
+   border: 5px inset red;
+   
    padding: 50px;
-   border: 5px solid black;
-   margin: 0 auto;
+   margin: 0 auto;   
 }
